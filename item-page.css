@@ -1,0 +1,355 @@
+.all-werapper .all-posts {
+        float: right;
+        width: 75%;
+        text-align: right;
+    }
+
+    .all-werapper .all-posts .posts {
+        float: right;
+        width: 100%;
+    }
+
+
+    .all-werapper .all-posts .posts .section {
+        width: 100%;
+    }
+.all-werapper .posts .section .widget {
+    float: right;
+    width: 100%;
+    margin: -10px 0;
+}
+
+  .all-werapper .posts .section .widget .hentry {
+    float: none;
+    margin: 10px 10px;
+    text-align: center;
+    transition: all .5s;
+    width: auto;
+    height: auto;
+    background: #636060;
+}
+
+
+    .all-werapper .posts .section .widget .hentry:hover {
+       background: #636060;
+       border: 2px solid rebeccapurple;
+       border-radius: 0;
+       transform: none;
+       transition: none;
+    }
+.all-werapper .posts .section .widget .hentry h1.post-title {
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    color: #d7fdfd;
+    font-weight: bold;
+}
+
+
+
+.all-werapper .posts .section .hentry #SocialShareBar {
+    background: #636060;
+    overflow: hidden;
+    border-bottom: 2px solid #fff;
+    margin: 0px 0 17px;
+    color: #fff;
+}
+
+.all-werapper .posts .section .hentry .comment-counter,.all-werapper .posts .section .hentry .facebook-like {
+    float: left;
+}
+
+.all-werapper .posts .section .hentry .post-body {
+    width: 97%;
+    color: #fff;
+    margin: 0px 0px 10px 0;
+    border: 2px solid #fff;
+    padding: 9px 10px;
+}
+.all-werapper .posts .section .hentry .post-body table {
+    text-align: center;
+    width: 100%;
+}
+.all-werapper .posts .section .hentry .post-body tbody {
+    width: 100%;
+}
+
+.all-werapper .posts .section .hentry .post-body tbody img {
+    width: 30%;
+    height: 400px;
+	float:right;
+}
+
+.all-werapper .posts .section .hentry .post-body tbody td.tr-caption {
+ /*   background: #636060;
+    position: absolute;
+    margin: -35px 10%;
+    width: 46%;
+    font-size: 19px;
+    border-radius: 10px;
+    color: #dc9f8d; */
+}
+
+.all-posts .post-body h4 a {
+    background: #077b07;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 0px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+.all-werapper .posts .section .hentry .labelom {
+    margin: 18px 0px 0px;
+    overflow: hidden;
+    text-align: center;
+    float: none;
+    background: #663399;
+}
+.all-werapper .posts .section .hentry .labelom .post-labels {
+    text-align: center;
+    float: right;
+}
+
+.all-werapper .posts .section .hentry .labelom .post-labels .catefory-bolg {
+    float: right;
+    font-size: 20px;
+    background: #fff;
+    line-height: 40px;
+    padding: 0px 10px;
+}
+.all-werapper .posts .section .hentry .labelom .post-labels a {
+    margin: 0px 1px;
+    float: right;
+    line-height: 40px;
+    transition: all 0.5s;
+	padding:0px 10px;
+}
+.all-werapper .posts .section .hentry .labelom .post-labels a:hover {
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.all-werapper .posts .section .hentry .share-wrapper{}
+
+.all-werapper .posts .section .hentry .share-wrapper .title {
+    font-size: 20px;
+    color: #fff;
+    background: #5c6a73;
+    margin: 0px auto;
+}
+
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list{}
+
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li {
+    max-width: 40%;
+    text-align: center;
+    background: #663399;
+    margin: 10px auto;
+    min-width: 20%;
+}
+
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li:nth-child(1){
+	background:#3B5998;	
+}
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li:nth-child(2){
+    background:#1da1f2;	
+}
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li:nth-child(3){
+    background:#bb0000;	
+}
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li:nth-child(4){
+    background:#125688;	
+}
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li:nth-child(5){
+    background:#cd486b;	
+}
+
+
+
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li a{
+	color:#fff;
+    font-weight:bold;
+
+}
+
+.all-werapper .posts .section .hentry .share-wrapper .entry-share-list li a i {
+    position: relative;
+    float: left;
+    right: -12px;
+    line-height: 31px;
+    width: 30px;
+	color:#fff;
+}
+.all-werapper .posts .section .hentry .postedby {
+    margin: 21px 0px;
+    border: 2px solid #fff;
+}
+
+.all-werapper .posts .section .hentry .postedby .author-image {
+    margin: 10px 0px 0px;
+}
+
+.all-werapper .posts .section .hentry .postedby .author-image img {
+    width: 100px;
+    border-radius: 50%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+.all-werapper .posts .section .hentry .postedby h2{}
+
+.all-werapper .posts .section .hentry .postedby h2 span{}
+
+.all-werapper .posts .section .hentry .postedby p {
+    color: #f7f7d6;
+}
+
+.all-werapper .posts .section .hentry .postedby .author-social {
+    margin: 10px auto;
+}
+
+.all-werapper .posts .section .hentry .postedby .author-social a {
+    margin: 0px 5px;
+    border-radius: 5px;
+    color:#fff;
+	transition:all 0.5s;
+}
+
+/*======================hover=================*/
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(1){
+    background: #3b5998;  
+}
+
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(2){
+    background:#25d366;   
+}
+
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(3){
+    background: #c32aa3;   
+}
+
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(4){
+    background: #ff4500;   
+}
+
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(5){
+    background: #ff0000;   
+}
+
+/*==============================================hover=========================================*/
+.all-werapper .posts .section .hentry .postedby .author-social a:hover {
+    background:#fff;
+	transition:all 0.5s;
+}
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(1):hover{ 
+	color:#3b5998;
+}
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(2):hover{ 
+	color:#25d366;
+}
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(3):hover{
+	color:#c32aa3;
+}
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(4):hover{; 
+	color:#ff4500;
+}
+.all-werapper .posts .section .hentry .postedby .author-social a:nth-child(5):hover{
+	color:#ff0000;
+}
+/*==============================================icons=========================================*/
+
+.all-werapper .posts .section .hentry .postedby .author-social i {  
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+	height: 30px;
+}
+
+a#Blog1_blog-pager-older-link,a#Blog1_blog-pager-newer-link {
+    background: rebeccapurple;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin: 0 13px;
+}
+.all-posts .widget .blog-posts .date-outer .date-posts .post-outer .comments {
+    border-top: 2px solid #fff;
+    margin-right: 10px;
+}
+.all-posts .widget .blog-posts .date-outer .date-posts .post-outer .comments h4{
+	color:#fff;
+}
+
+.all-posts .FeaturedPost{}
+
+.all-posts .FeaturedPost h2{}
+
+.all-posts .post-summary h3{}
+
+.all-posts .post-summary h3 a{}
+
+.all-posts .post-summary img{}
+
+
+
+.height-ads {
+  display:none;
+}
+
+/*===================================side bar=============*/
+
+.all-werapper .side-bar {
+    float: left;
+    width: 24%;
+}
+
+.side-bar .widget{   
+	 margin: 6px 10px;
+    border: 2px solid #fff;
+}
+
+.side-bar .widget h2 {
+    border-bottom: 2px solid #fff;
+    padding: 0px 10px;
+    text-align: right;
+    margin: 0px 0px 10px 0PX;
+    background: rebeccapurple;
+	color:#fff;
+    font-size: 20px;
+}
+
+.side-bar .widget  .widget-content {}
+
+.side-bar .widget  .widget-content ul {}
+
+.side-bar .widget .widget-content ul li {
+    border-bottom: 2px solid #fff;
+}
+ .side-bar .widget .widget-content ul li:nth-last-of-type{ 
+	 border-bottom:none;
+}
+
+.side-bar .widget  .widget-content ul li .item-thumbnail-only{}
+
+.side-bar .widget .widget-content ul li .item-thumbnail-only .item-thumbnail {
+    float: none;
+    margin: 0;
+}
+
+.side-bar .widget  .widget-content ul li  .item-thumbnail-only .item-thumbnail img {
+    width: 100%;
+    max-height: 100px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.side-bar .widget  .widget-content ul li .item-thumbnail-only .item-title {
+    text-align: center;
+    margin: -10px 0px;
+	background: #663399;
+}
