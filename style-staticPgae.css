@@ -135,3 +135,6 @@ span.likebtn-wrapper.lb-loaded.lb-style-elegant.lb-popup-position-top.lb-rtl.lb-
     position: relative;
     top: -60px;
 }
+.height-ads {
+  display:none;
+}
