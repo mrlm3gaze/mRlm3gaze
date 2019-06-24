@@ -1,0 +1,192 @@
+html,body,div,ul,li,nav,input,button,a{text-decoration: none;color: inherit;border:none;outline: none;margin: 0;padding:0;font-family:LevonFont,Segoe UI, Tahoma}	
+
+.inputs table {
+    margin: 10px auto;
+}
+.inputs tr {
+    text-align: left;
+}
+
+.inputs {
+    background: #777 url(https://lh3.googleusercontent.com/-b3ddxRMav7w/XREapwnmZYI/AAAAAAAACLQ/ptyhVnIDwzc9GLy4PzYMxiIf7hm1C18wwCLcBGAs/h120/%25D9%2588%25D8%25B1%25D9%2582%25D8%25A9.jpg);
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.inputs input {
+    padding: 10px;
+    background: #ddd;
+    width: 400px;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+
+}
+.inputs label {
+    position: relative;
+    top: -68px;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: justify;
+    padding: 5px;
+    color: #0427a9;
+}
+
+
+#operation, #mt, #emballage, #ttc,#netcom1,#netcom2,#netfin,#ecrr,#port {width: 828px}
+.inputs input:nth-of-type(2),.inputs input:nth-of-type(5),.inputs input:nth-of-type(8),.inputs input:nth-of-type(11),.inputs input:nth-of-type(14) {background: #a0a0a0} 
+
+.inputs .btn {
+    color: #fff;
+    margin: -19px 0 12px;
+    cursor: pointer;
+    padding: 10px;
+    background: #12196b;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+    
+.error {
+    background: rgba(150, 140, 140, 0.59);
+    width: 680px;
+    margin: 0 auto;
+    height: 200px;
+    position: fixed;
+    top: 123px;
+    transform: translate(50%);
+    text-align: center;
+    right: auto;
+    left: auto;
+    border-radius: 18px;
+    display: none;
+
+}
+.okey {
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 50px;
+    height: 33px;
+    background: rgba(137, 131, 131, 0.76);
+    display: block;
+    border-top-right-radius: 18px;
+
+}
+okey-vis{
+    transition:all 2s;
+    display: none;
+        
+        
+    }    
+.okey:hover{
+    background: #bd2727;
+
+}
+p#errp {
+    position: relative;
+    top: 59px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    font-family: LevonFont,Segoe UI, Tahoma;
+    direction: rtl;
+} 
+.symbo{
+    color: #221b82;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: solid;
+
+    }
+.footer {
+    float: right;
+    width: 205px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c09a5e;
+}
+.footer a {
+    color: #c09a5e;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: consolas;
+}
+.profile {
+    width: 173px;
+    position: absolute;
+    right: 80px;
+    margin: -180px 0;
+    background: #b89050;
+    padding: 7px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transform:rotateX(-90deg) translateY(50%);
+    transition: all 1s;
+}
+.profile:after {
+    content: '';
+    border-top: 20px solid #b89050;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -9px;
+    left: 60px;
+}
+.profile img {
+    width: 57px;
+    height: 53px;
+    margin: 0;
+    padding: 0px;
+}
+.footer:hover ~ .profile {
+	opacity: 1;
+	transform: rotate(0deg);
+	transition: all 1s;
+}
+.profile:hover {
+	opacity: 1;
+	transform: rotate(0deg);
+}
+
+::selection {
+     color: #FFFFFF;
+     background: transparent;
+     text-shadow: #ff0000 0 0 2px;;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	border: 1px solid yellowgreen;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: yellowgreen;  
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #88ba1c;
+	}  
+::-webkit-scrollbar-corner {
+	background: gold;
+ }
