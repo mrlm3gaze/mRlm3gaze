@@ -82,7 +82,7 @@ function cancelAlarm(button){
 	//silence 5min 
 	function silence() {
 		stopAlarm();
-		setTimeout(function (){iniAlarm()},20000)
+		setTimeout(function (){iniAlarm()},300000)// 1000 ms * 60 =60 000 (1 min) ===>60 000 *5 = 300 000 (5min) 
 	};
 
 
